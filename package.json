@@ -1,0 +1,14 @@
+{
+  "name": "obscompiler",
+  "version": "1.0.0",
+  "description": "observablehq compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "handoko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}

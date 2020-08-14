@@ -1,0 +1,22 @@
+.grid-layout {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-areas:
+        'l m r';
+}
+
+.grid-m {
+    grid-area: m;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.grid-r {
+    grid-area: r;
+}

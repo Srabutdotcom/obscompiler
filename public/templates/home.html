@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="/vendor/codemirror/lib/codemirror.css" rel="stylesheet">
+    <link href="/templates/home.css" rel="stylesheet"> 
+</head>
+<body>
+    <div class="cell-container relative">
+        <h1>Observablehq Compiler</h1>
+        <div id="editor" class="grid-layout">
+            <button id="play" class="grid-r" type="button">Run</button>
+            <div class="output grid-m"></div>
+        </div>
+        <div class="grid-layout">
+            <div id="render" class="output grid-m"></div>
+        </div>
+    </div>
+    <script src='/templates/home.js' type="module"></script>
+</body>
+</html>
